@@ -44,5 +44,5 @@ int main()
         if (max < min) max = min;
     }
 
-    cout << max;
+    cout << "Ответ: " << max;
 }

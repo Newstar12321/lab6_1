@@ -33,11 +33,10 @@ int main()
         }
     }
 
-    int min = array[0][0];
-    int max = min;
+    int max = array[0][0];
     for (size_t i = 0; i < m; i++)
     {
-        min = array[i][0];
+        int min = array[i][0];
         for (size_t j = 0; j < n; j++)
         {
             if (array[i][j] < min) min = array[i][j];
